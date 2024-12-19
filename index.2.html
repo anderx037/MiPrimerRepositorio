@@ -1,0 +1,56 @@
+﻿
+<html>
+<head>
+    <!--primero va el java scipt despues el css v-->
+
+    <title>Mi calculadora 1.1</title>
+    <script src="Script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <!--compliado coger texto y convertir en 1 y o -->
+    <!--interpretado por el navegador  html css java-->
+</head>
+
+<body>
+    <!-- aqui ponemos el titulo de la pag. -->
+    <h1> Mi calculadora básica </h1>
+
+    <div>
+        <input id="num1" type="text" placeholder="0 " readonly />
+
+    </div>
+    <div>
+        <button id="bt7" onclick="Escribir(7)">7</button>
+        <button id="bt8" onclick="Escribir(8)">8</button>
+        <button id="bt9" onclick="Escribir(9)">9</button>
+        <button id="btclear" onclick="clearDisplay()">C</button>
+
+
+    </div>
+    <div>
+
+        <button id="bt4" onclick="Escribir(4)">4</button>
+        <button id="bt5" onclick="Escribir(5)">5</button>
+        <button id="bt6" onclick="Escribir(6)">6</button>
+        <button id="btnresta" onclick="resta()">-</button>  <!--para lllamar la funcion ponemos el operador seguido de :() todo entre comillas-->
+
+    </div>
+    <div>
+
+        <button id="bt1" onclick="Escribir(1)">1</button>
+        <button id="bt2" onclick="Escribir(2)">2</button>
+        <button id="bt3" onclick="Escribir(3)">3</button>
+        <button id="btnsuma" onclick="sumar()">+</button>    <!-- llamamos la funcion sumar, onclic es un escuchador -->
+
+    </div>
+
+    <div>
+
+        <button id="btndiv" onclick="dividir()">/</button>
+        <button id="bt0" onclick="Escribir(0)">0</button>
+        <button id="btnmult" onclick="multiplicacion()">x</button>
+        <button id="btnresul" onclick="Resultado()">=</button>
+
+    </div>
+   
+</body>
+</html>

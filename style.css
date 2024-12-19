@@ -1,0 +1,28 @@
+﻿
+h1 {
+    color: brown;
+    font-family:Jokerman;
+}
+
+input {
+    background-color: chartreuse;
+    color: blue;
+    text-align:right;
+}
+button {
+    background-color: blue;
+    border: none;
+    color: greenyellow;
+    padding: 12px 28px;
+    font-size: 16px;
+    min-width: 21%;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer ;
+}
+div{
+   text-align:center;
+}
+body{
+    text-align:center;
+}
