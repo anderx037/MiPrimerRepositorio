@@ -1,0 +1,41 @@
+﻿
+h1 {
+    color: brown;
+    font-family:Jokerman;
+}
+
+input {
+    background-color: chartreuse;
+    color: blue;
+    text-align: right;
+    padding: 12px 28px;
+    font-size: 16px;
+    min-width: 21%;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+button {
+    background-color: blue;
+    border: none;
+    color: greenyellow;
+    padding: 12px 28px;
+    font-size: 16px;
+    min-width: 14%;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer ;
+}
+div{
+   text-align:center;
+}
+body{
+    text-align:center;
+       color: greenyellow;
+    padding: 12px 28px;
+    font-size: 27px;
+    min-width: 44%;
+    text-decoration: none;
+    margin: 5px 5px;
+    cursor: pointer ;
+}
